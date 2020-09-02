@@ -48,11 +48,15 @@ nav a {
 }
 
 .fire-info img {
+    display: block;
+    margin: 0 auto;
     width: 10%;
     height: 10%;
 }
 
 .reservation-info img {
+    display: block;
+    margin: 0 auto;
     width: 10%;
     height: 10%;
 }
