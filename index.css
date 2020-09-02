@@ -1,15 +1,12 @@
 .plan {
-    color: white;
     background-color: #FF764E;
 }
 
 .learn {
-    color: white;
     background-color: #5ED3EB;
 }
 
 .involved {
-    color: white;
     background-color: #FFCD69;
 }
 
@@ -20,4 +17,34 @@
 
 footer {
     background-color: #F9E7DC;
+}
+
+nav a {
+    color: white;
+}
+
+.fire-reservation-info img {
+    margin: 0 auto;
+}
+
+.main-info img {
+    border-radius: 50%;
+    display: inline-block;
+    width: 15%;
+    height: 15%;
+}
+
+.fire-info img {
+    width: 10%;
+    height: 10%;
+}
+
+.reservation-info img {
+    width: 10%;
+    height: 10%;
+}
+
+.footer-content img {
+    width: 40%;
+    height: 90 vh;
 }
