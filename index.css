@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.main-info h1 {
+    font-family: 'Chelsea Market', cursive;
+}
+
 .plan {
     background-color: #FF764E;
 }
@@ -27,9 +37,12 @@ nav a {
     margin: 0 auto;
 }
 
+.main-info {
+    display: inline-block;
+}
+
 .main-info img {
     border-radius: 50%;
-    display: inline-block;
     width: 15%;
     height: 15%;
 }
@@ -45,6 +58,7 @@ nav a {
 }
 
 .footer-content img {
-    width: 40%;
+    width: ;
     height: 90 vh;
+    position: relative;
 }
