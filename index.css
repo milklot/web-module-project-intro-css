@@ -23,46 +23,80 @@
 .history {
     color: white;
     background-color: #DDB9A3;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 0.5%;
 }
 
 footer {
     background-color: #F9E7DC;
 }
 
-nav a {
-    color: white;
+.Navigator {
+    margin: 0 auto;
+    width: 20%;
 }
 
-.fire-reservation-info img {
+nav button {
+    border: none;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    width: 200px;
+    padding: 2% 0;
+    margin-left: 15%;
+    font-size: 15px;
+}
+
+.fire-reservation-info {
+    width: 35%;
     margin: 0 auto;
+    margin-top: 25px;
+}
+
+.fire-reservation-info p {
+    text-align: center;
 }
 
 .main-info {
+    margin-top: 100px;
     display: inline-block;
 }
 
 .main-info img {
+    display: inline-block;
     border-radius: 50%;
-    width: 15%;
-    height: 15%;
+    width: 25%;
+    height: 25%;
+}
+
+.about {
+    display: inline-block;
+    width: 70%;
+    text-align: center;
+    height: 100px;
+    margin-bottom: 10%;
+}
+
+.about h1 {
+    margin: 0 auto;
 }
 
 .fire-info img {
     display: block;
     margin: 0 auto;
-    width: 10%;
-    height: 10%;
+    width: 30%;
+    height: 30%;
 }
 
 .reservation-info img {
     display: block;
     margin: 0 auto;
-    width: 10%;
-    height: 10%;
+    width: 30%;
+    height: 30%;
 }
 
 .footer-content img {
-    width: ;
-    height: 90 vh;
-    position: relative;
+    width: 100%;
+    height: 200px;
 }
