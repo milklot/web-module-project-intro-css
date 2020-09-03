@@ -6,7 +6,10 @@
 }
 
 .main-info h1 {
+    display: inline-block;
     font-family: 'Chelsea Market', cursive;
+    height: 70px;
+    width: 100%;
 }
 
 .plan {
@@ -23,6 +26,7 @@
 
 .history {
     color: white;
+    text-align: center;
     background-color: #DDB9A3;
     margin-left: 2%;
     margin-right: 2%;
@@ -44,9 +48,11 @@ nav button {
     color: white;
     display: inline-block;
     width: 200px;
+    height: 85px;
     padding: 2%;
     margin-left: 15%;
-    font-size: 15px;
+    margin-top: 2%;
+    font-size: 20px;
 }
 
 .fire-reservation-info {
